@@ -8,7 +8,7 @@ End-to-end data analytics project on the Online Retail II dataset — from raw d
 
 This project simulates a real-world data analyst workflow: taking a messy raw transactional dataset and turning it into business-ready insights.
 
-Pipeline: Kaggle (raw data) → Python / Jupyter Notebook (cleaning + EDA) → MySQL (business KPI queries) → Power BI (dashboard)
+**Pipeline:** Kaggle (raw data) → Python / Jupyter Notebook (cleaning + EDA) → MySQL (business KPI queries) → Power BI (dashboard)
 
 ### Business questions answered:
 
@@ -22,11 +22,14 @@ Pipeline: Kaggle (raw data) → Python / Jupyter Notebook (cleaning + EDA) → M
 ### Dataset
 
 Source: Online Retail II — UCI/Kaggle
+[Clickable Text](URL)
+
 ~1M+ transaction records from a UK-based online retailer (Dec 2009 – Dec 2011)
 Raw file: Raw_Data_online_retail_II.csv (not included in this repo due to size — see data/README.md for the download link)
 
 ### Repository Structure
 
+```
 retail-sales-customer-analysis/
 ├── README.md
 ├── data/
@@ -36,8 +39,8 @@ retail-sales-customer-analysis/
 ├── sql/
 │   └── business_kpi_queries.sql       # KPI, country/year/month, top products & customers
 └── dashboard/
-    ├── retail_dashboard.pbix          # Power BI file (optional — add if sharable)
     └── dashboard_screenshot.png       # Static preview of the dashboard
+```
 
 ### Data Cleaning & Feature Engineering (Python)
 
@@ -59,5 +62,17 @@ retail-sales-customer-analysis/
 * Top 10 customers by revenue
 
 ### Dashboard Highlights
+
+<img width="1150" height="650" alt="dashboard_screenshot" src="https://github.com/user-attachments/assets/f2dbada0-f0be-4a72-bb99-537cbcb638b1" />
+
+
+|     Metric          |  Value  |
+|---------------------|---------|
+| Total Customers     | 6K      |
+| Total Orders        | 37K     |
+| Total Quantity Sold |	11M     |
+| Total Revenue       |	₹17.37M |
+| Average Order Value |	₹469.91 |
+
 
 
