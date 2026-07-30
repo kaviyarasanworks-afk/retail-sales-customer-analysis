@@ -2,6 +2,10 @@
 
 ### The raw dataset used in this project is Online Retail II, available on Kaggle:
 
+<a href="https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci" target="_blank" rel="noopener noreferrer">
+  🔗 Online Retail II — UCI/Kaggle
+</a>
+
 🔗 [Online Retail II — UCI/Kaggle](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
 
 <a href="https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci" target="_blank" rel="noopener noreferrer">🔗 Online Retail II — UCI/Kaggle</a>
