@@ -39,6 +39,7 @@ retail-sales-customer-analysis/
 ├── sql/
 │   └── business_kpi_queries.sql       # KPI, country/year/month, top products & customers
 └── dashboard/
+    ├── retail_dashboard.pbix          # Power BI file
     └── dashboard_screenshot.png       # Static preview of the dashboard
 ```
 
