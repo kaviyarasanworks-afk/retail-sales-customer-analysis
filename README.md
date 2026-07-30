@@ -22,9 +22,9 @@ This project simulates a real-world data analyst workflow: taking a messy raw tr
 ### Dataset
 
 Source: Online Retail II — UCI/Kaggle
-[Clickable Text](URL)
 
 ~1M+ transaction records from a UK-based online retailer (Dec 2009 – Dec 2011)
+
 Raw file: Raw_Data_online_retail_II.csv (not included in this repo due to size — see data/README.md for the download link)
 
 ### Repository Structure
@@ -54,7 +54,7 @@ retail-sales-customer-analysis/
 
 ### SQL Analysis
 
-#### Key queries in sql/business_kpi_queries.sql cover:
+#### Key queries in [sql/business_kpi_queries.sql](sql/business_kpi_queries.sql) cover:
 
 * Sales vs. cancellation summary
 * Revenue and orders by country, year, month, and quarter
@@ -75,5 +75,17 @@ retail-sales-customer-analysis/
 | Total Revenue       |	₹17.37M |
 | Average Order Value |	₹469.91 |
 
+### How to Reproduce
+1. Download the dataset [see data/README.md](data/README.md) and place it in a local data/ folder.
+2. Run [notebooks/01_data_cleaning_eda.ipynb](notebooks/01_data_cleaning_eda.ipynb) to clean the data and load it into MySQL.
+3. Run the queries in [sql/business_kpi_queries.sql](sql/business_kpi_queries.sql) against the online_retail_db database.
+4. Open [dashboard](dashboard/dashboard_screenshot.png) in Power BI Desktop and refresh the data connection.
 
+### Key Insights
 
+* The UK is by far the largest market by revenue, followed by EIRE, the Netherlands, and Germany.
+* Revenue peaks in November, consistent with holiday-season buying, with Average Order Value dipping mid-year.
+* A small group of top customers and products account for a disproportionate share of total revenue.
+
+### Author
+[Kaviyarasan] Data Analyst | [Portfolio/GitHub URL]
