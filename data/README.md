@@ -2,7 +2,7 @@
 
 ### The raw dataset used in this project is Online Retail II, available on Kaggle:
 
-🔗 https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
+<a href="https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci" target="_blank" rel="noopener noreferrer">🔗 Online Retail II — UCI/Kaggle</a>
 
 ### Why the raw CSV isn't in this repo
 
