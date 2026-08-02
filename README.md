@@ -64,7 +64,9 @@ retail-sales-customer-analysis/
 
 ### Dashboard Highlights
 
-<img width="1150" height="650" alt="dashboard_screenshot" src="https://github.com/user-attachments/assets/f2dbada0-f0be-4a72-bb99-537cbcb638b1" />
+<img width="1453" height="841" alt="dashboard_screenshot_1" src="https://github.com/user-attachments/assets/6d811d1b-dacd-4ca4-9de6-5247f5670563" />
+
+
 
 
 |     Metric          |  Value  |
